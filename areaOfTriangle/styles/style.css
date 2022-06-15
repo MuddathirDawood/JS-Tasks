@@ -1,0 +1,39 @@
+label{
+    margin-right: 25px;
+}
+
+div{
+    margin: 10px 5px 25px 5px;
+}
+
+input{
+    margin-left: 12px;
+}
+
+.container{
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 200px;
+}
+
+#display{
+    width: 500px;
+    height: 50px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+#display:hover{
+    border: red 2px solid;
+    color: red;
+    background-color: black;
+}
+
+#out{
+    margin-left: 15%;
+    font-weight: 600;
+}

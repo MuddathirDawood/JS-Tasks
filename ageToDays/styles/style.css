@@ -1,0 +1,41 @@
+label{
+    margin-right: 25px;
+}
+
+div{
+    margin: 10px 5px 25px 5px;
+}
+
+input{
+    margin-left: 12px;
+}
+
+.container{
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 200px;
+}
+
+#display{
+    width: 500px;
+    height: 50px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+#display:hover{
+    border: rgb(0, 255, 0) 2px solid;
+    color: rgb(0, 255, 0);
+    border-radius: 200px;
+    background-color: black;
+    transition: all 1s;
+}
+
+#out{
+    margin-left: 15%;
+    font-weight: 600;
+}
