@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px grey solid;
+    width: 400px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(50, 99, 197);
+    color: white;
+}
+
+.colorC{
+    height: 21px;
+    width: 170px;
+    border: 1px grey solid;
+}
+
+div{
+   margin-top: 5px;
+   margin-bottom: 5px; 
+}
+
+label{
+    font-size: 17px;
+}
+
+input{
+    height: 15px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#color{
+    width: 350px;
+    height: 75px;
+    border: 2px solid black;
+}
