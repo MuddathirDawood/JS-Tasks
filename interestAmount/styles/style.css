@@ -1,0 +1,23 @@
+.container{
+    margin-left: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    border: 1px solid black;
+}
+
+button{
+    width: 25%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#out{
+    margin-left: 250px;
+}
