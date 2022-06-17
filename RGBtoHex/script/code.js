@@ -10,8 +10,24 @@ btnDisplay.addEventListener('click',()=>{
     let greencode = parseInt(document.querySelector('#rgbG').value);
     let bluecode = parseInt(document.querySelector('#rgbB').value);
 
-    let hexString = redcode.toString(16) + greencode.toString(16) + bluecode.toString(16);
+    let rcode = redcode.toString(16);
+    let gcode = greencode.toString(16);
+    let bcode = bluecode.toString(16);
 
+    switch (true) {
+        case rcode == 0:
+            rcode = 00;
+            break;
+        case gcode == 0:
+            bcode = 00;
+            break;
+        case bcode == 0:
+            bcode = 00;  
+            break; 
+
+    }
+
+    let hexString = rcode + gcode + bcode;
     document.querySelector('#hex').innerHTML = '#'+hexString;
 
     let clrpane = document.querySelector('#color');
