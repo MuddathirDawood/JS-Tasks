@@ -1,8 +1,8 @@
 const btnDisplay = document.querySelector('#display')
+let numbers = [5,8,7,1,3,9,5,4,6,2,8]
+document.querySelector('#nums').value = numbers;
 
 btnDisplay.addEventListener('click', ()=>{
-    let num1 = parseInt(document.querySelector('#num1').value);
-    let num2 = parseInt(document.querySelector('#num2').value);
-    let calculate = num1 + num2;
-    document.querySelector('#output').innerHTML = `${calculate}`;
+    let sum = eval(numbers.join('+')); 
+    document.querySelector('#output').innerHTML = `${sum}`;
 })
