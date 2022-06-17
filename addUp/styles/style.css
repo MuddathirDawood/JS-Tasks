@@ -1,0 +1,46 @@
+input{
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+p{
+   margin-left: 12%;
+}
+
+#display{
+    margin-left: 25%;
+    height: 40px;
+    margin-top: 13px;
+    width: 100px;
+}
+
+#display:hover{
+    border: rgb(0, 255, 0) 2px solid;
+    color: rgb(0, 255, 0);
+    border-radius: 200px;
+    background-color: black;
+    width: 150px;
+    transition: all 1s;
+}
+
+#output{
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+label{
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    margin-left: 10%;
+}
+
+#middle{
+    display: flex;
+}
