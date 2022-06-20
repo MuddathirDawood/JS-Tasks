@@ -15,18 +15,44 @@ btnDisplay.addEventListener('click',()=>{
     let bcode = bluecode.toString(16);
 
     switch (true) {
-        case rcode == 0:
-            rcode = 00;
+        case rcode === '0':
+            rcode = '00';
             break;
-        case gcode == 0:
-            bcode = 00;
+        case gcode === '0':
+            gcode = '00';
             break;
-        case bcode == 0:
-            bcode = 00;  
+        case bcode === '0':
+            bcode = '00';  
             break; 
 
     }
+    switch (true) {
+        case rcode === '0':
+            rcode = '00';
+            break;
+        case gcode === '0':
+            gcode = '00';
+            break;
+        case bcode === '0':
+            bcode = '00';  
+            break; 
 
+    }
+    switch (true) {
+        case rcode === '0':
+            rcode = '00';
+            break;
+        case gcode === '0':
+            gcode = '00';
+            break;
+        case bcode === '0':
+            bcode = '00';  
+            break; 
+
+    }
+    console.log(rcode);
+    console.log(bcode);
+    console.log(gcode);
     let hexString = rcode + gcode + bcode;
     document.querySelector('#hex').innerHTML = '#'+hexString;
 
